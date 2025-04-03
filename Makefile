@@ -1,5 +1,5 @@
-FILES:=$(wildcard *.c)
-FLAGS:=-Wall -Wextra -lSDL2 -lm -g
+FILES:=$(wildcard src/*.c)
+FLAGS:=-Wall -Wextra -lGL -lglfw -lm -g
 
 all:
-	gcc -o game $(FILES) $(FLAGS)
+	gcc -o hehe $(FILES) $(FLAGS)
